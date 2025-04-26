@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - ReadScape</title>
+
+  <!-- Link to external CSS file for styling -->
+  <link rel="stylesheet" href="css/login.css" />
+
+  <!-- Link to external JavaScript file for functionality -->
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <!-- Main container for the login content -->
+  <div class="main-container">
+
+    <!-- ReadScape logo -->
+    <div class="logo-container">
+      <img src="assets/ReadScape.png" alt="ReadScape Logo" class="logo-img">
+    </div>
+
+    <!-- Login form section -->
+    <div class="form-container">
+      <h1>LOGIN</h1>
+      <p>Create an account or <a href="signup.html">Sign Up</a></p>
+
+      <!-- Login form with input fields and submit button -->
+      <form id="loginForm">
+        <label for="login-email">Email</label>
+        <input type="email" id="login-email" required>
+
+        <label for="login-username">Username</label>
+        <input type="text" id="login-username" required>
+
+        <label for="login-password">Password</label>
+        <input type="password" id="login-password" required>
+
+        <button type="submit" class="login-button">Login</button>
+
+        <!-- Terms and privacy note -->
+        <p class="terms">By logging in, you accept our terms of service and privacy policy.</p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
